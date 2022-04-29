@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.clear{clear: both;}
+header {
+    padding: 10px;
+    background-color: #e65100;
+}
+.logo{
+    float:left;
+}
+.logo a{
+    letter-spacing: 6px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.menu_desktop{float:right}
+.menu_desktop li{
+    display:inline-block;
+    margin-left: 30px;
+}
+.menu_desktop a{
+    color: white;
+   line-height:30px;
+    text-decoration: none;
+}
+.menu_desktop a:hover{text-decoration: underline; }
+.barra {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: #ef6c00;
+}
+
+section.produtos {
+    padding: 20px;
+    background-color: white;
+
+}
+.produto__wrap{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    
+}
+.produto__single{
+    border: 1px solid black;
+    padding: 10px;
+    background: white;
+    box-shadow: 5px 5px rgba(20,20,20,0.6);
+    border-radius: 10px;
+    min-height: 420px;
+    position: relative;
+}
+.produto__img img{width: 100%;}
+.title__produto {
+    padding: 20px 0;
+    text-align: center;
+}
+.title__produto h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+.title__produto p{
+    color: black;
+}
+.produto__content a {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #039be5;
+    display: block;
+    text-decoration: none;
+    transition: 0.6s;
+   
+    margin-top: 10px;
+}
+.produto__content h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+    .produto__content a:hover {
+        background: #0277bd;
+        border-radius: 20px;
+    }
+.wrap__table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.wrap__table thead {
+    background-color: #ef6c00;
+    color: white;
+}
+.wrap__table td{
+    padding: 10px 6px;
+    border: 1px solid black;
+}
+.total{
+    float: right;
+}
+.total h2{
+    margin: 20px 0;
+}
+    .total a {
+        display: block;
+        background: #ef6c00;
+        color: white;
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+section.banner .background {
+    background-image: url('../img/wallpaper.jpg');
+    background-size: contain;
+    width: 100%;
+    min-height: 600px;
+}
+section.search{
+    margin: 20px;
+}
+section.search > .center{
+    max-width: 700px;
+}
+.busca__wrap {
+    padding: 20px;
+    background: orangered;
+    box-shadow: 5px 5px rgba(20,20,20,0.6);
+    border-radius: 20px 0 20px 0;
+}
+.busca__wrap input[type=text]{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(20,20,20,0.6);
+    outline: none;
+}
+.busca__wrap input[type=submit] {
+        width: auto;
+        padding: 10px 30px;
+        border: 0;
+        box-shadow: 5px 5px rgba(20,20,20,0.6);
+        color: white;
+        background-color: red;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 0 auto;
+        display: block;
+        transition: 0.4s;
+ }
+    .busca__wrap input[type=submit]:hover{background: green;}
+section.contato{
+    padding: 40px 0;
+
+}
+.right{padding-right: 10px}
+.w50{float:left;width:50%;}
+.form__wrap{
+    padding: 20px;
+}
+.form__group input[type=text],.form__group input[type=email]{
+    width:100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.form__group textarea{
+    width: 100%;
+    height: 155px;
+    resize: vertical;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.form__group input[type=submit]{
+    width: auto;
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.w33{float: left;width: 33.3%;padding:10px;}
+footer{
+    padding:20px;
+}
+.w33 h2{margin-bottom: 20px;border-left:1px solid red;padding: 0 20px;}
+@media screen and (max-width: 1024px) {
+    .produto__wrap{width:33.3%;}
+}
+@media screen and (max-width: 768px) {
+    .produto__wrap {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .produto__wrap {
+        width: 100%;
+    }
+}

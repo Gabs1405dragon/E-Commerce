@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\controllers",
+    "\\models",
+    "\\views",
+    "\\views\\pages",
+    "\\views\\pages\\ajax",
+    "\\views\\pages\\img",
+    "\\views\\pages\\js",
+    "\\views\\pages\\Style",
+    "\\views\\pages\\templates"
+  ],
+  "SelectedNode": "\\views\\pages\\finalizar.php",
+  "PreviewInSolutionExplorer": false
+}
